@@ -26,7 +26,7 @@ of each movie. **We're only considering the movies from the dataset with more th
 ![image](https://github.com/user-attachments/assets/bde034bf-61d0-42c1-bf6d-a4c8b0b3d839)
 
 ## Model and Recommendations
-For making movie recommendations, we're creating a model which takes the user and the movie IDs for a particular rating as `X` (considering them as categorical variables), and the rating given to the movie as `y`. Note that this model isn't generating recommendations by itself, but rather, that the weights of one of the layers of the model are used to deduct the similarity between films, as having users review both of them with high ratings implies a degree of similarity between them.
+For making movie recommendations, we're creating a model which takes the user and the movie IDs for a particular rating as `X` (considering them as categorical variables), and the rating given to the movie as `y`. Note that this model isn't generating recommendations by itself, but rather, that the weights of one of the layers of the model are used to deduct the similarity between films, as having users review both of them with high ratings implies a degree of similarity between them. As we're not using the model directly, we do not split the data into training and testing.
 
 These weights are then used alongside the ID of the input movie(s) to identify the similarity with all other registered movies (or rather, with their ID). It is worth noting that IDs can be easily converted into the name of the movie they represent.
 
