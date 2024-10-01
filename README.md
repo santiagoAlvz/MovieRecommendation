@@ -1,5 +1,5 @@
 # MovieRecommendation
-MovieRecommendation is an recommendation engine for movies built using the ![MovieLens Dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset). It takes a movie as an input, and returns a list of the movies in the dataset that are most similar to it.
+MovieRecommendation is an recommendation engine for movies built using the ![MovieLens Dataset](https://grouplens.org/datasets/movielens/100k/). It takes a movie as an input, and returns a list of the movies in the dataset that are most similar to it.
 
 ![image](https://github.com/user-attachments/assets/9bdb8640-57cd-42ab-b4dd-4c506c538187)
 
@@ -14,7 +14,7 @@ This project is developed in Python, using the following libraries:
 - Fuzzywuzzy
 
 ## Data
-This engine is trained on data from the ![MovieLens Dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset), more specifically, on the `movie.csv` and `rating.csv` files of the dataset. This files must be downloaded in the root folder for the model to train. Firstly, this information was used to generate data visualizations in order to learn more about the dataset.
+This engine is trained on data from the ![MovieLens Dataset](https://grouplens.org/datasets/movielens/100k/), more specifically, on the `movie.csv` and `rating.csv` files of the dataset. This files must be downloaded in the root folder for the model to train. Firstly, this information was used to generate data visualizations in order to learn more about the dataset.
 
 ![image](https://github.com/user-attachments/assets/704d91c1-c384-45be-b642-60f70c3d626b)
 
@@ -50,4 +50,4 @@ The following files are contained in this repo
 - A presentation `Presentation.pdf` which explains our solution, including the business problem we aim to solve
 - A notebook `Movie_Recommendation_System.ipynb`, which contains the engine's code
 
-To execute this notebook, the files `movie.csv` and `rating.csv` must be downloaded from the ![MovieLens Dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset). Those files aren't included because of size limitation issues.
+To execute this notebook, the files `movie.csv` and `rating.csv` must be downloaded from the ![MovieLens Dataset](https://grouplens.org/datasets/movielens/100k/). Those files aren't included because of size limitation issues.
