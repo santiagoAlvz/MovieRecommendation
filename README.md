@@ -16,7 +16,7 @@ This project is developed in Python, using the following libraries:
 ## Data
 This engine is trained on data from the [MovieLens Dataset](https://grouplens.org/datasets/movielens/100k/), more specifically, on the `movie.csv` and `rating.csv` files of the dataset. This files must be downloaded in the root folder for the model to train. Firstly, this information was used to generate data visualizations in order to learn more about the dataset.
 
-![image](https://github.com/user-attachments/assets/704d91c1-c384-45be-b642-60f70c3d626b)
+![image](https://github.com/user-attachments/assets/4be51bf9-75c0-4ec3-92c3-a3ef51dbec56)
 
 ## Model
 We've tried two approaches for generating movie recommendations.
