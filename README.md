@@ -47,6 +47,7 @@ While these metrics suggest excellent performance, it's important to consider th
 
 ## Files
 The following files are contained in this repo
+- A presentation titled `Final Business Proposal.pptx` which contains our business proposal
 - A presentation `Presentation.pdf` which explains our solution, including the business problem we aim to solve
 - A notebook `Movie_Recommendation_System.ipynb`, which contains the engine's code
 
